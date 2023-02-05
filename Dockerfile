@@ -19,4 +19,4 @@ RUN apk update && apk upgrade -U -a && \
     chmod +x /docker-entrypoint.sh && \
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
-EXPOSE 5173
+EXPOSE 80
